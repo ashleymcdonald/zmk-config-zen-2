@@ -8,13 +8,13 @@
 #define FN      3
 #define BT      4
 
-//nyan// &left_encoder {
-//nyan//     status = "disabled";
-//nyan// };
+ &left_encoder {
+     status = "disabled";
+ };
 
-//nyan// &right_encoder {
-//nyan//     status = "disabled";
-//nyan// };
+ &right_encoder {
+     status = "disabled";
+ };
 
 / {
   chosen {
@@ -41,7 +41,7 @@
    &mt LCTRL ESC &kp A &kp S &kp D &kp F &kp G   &kp H &kp J  &kp K     &kp L   &kp SEMI &kp SQT
    &kp LSHFT &kp Z &kp X &kp C &kp V &kp B   &kp N &kp M  &kp COMMA &kp DOT &kp FSLH &kp RSHFT
                   &kp LGUI &mt LALT RET &mo NUM  
-                  //nyan// &mo BT &mo FN
+                   &mo BT &mo FN
                   &mo SYM  &kp SPACE    &kp RALT
                         >;
                 };
@@ -60,7 +60,7 @@
    &trans     &kp LEFT     &kp DOWN     &kp UP     &kp RIGHT    &trans      &kp LEFT &kp DOWN  &kp UP    &kp RIGHT &trans &trans
    &kp LSHFT  &trans       &trans       &trans     &trans       &trans      &kp HOME &kp PG_DN &kp PG_UP &kp END   &trans &kp PSCRN
                       &trans &mo BT &trans 
-                      //nyan// &trans &trans
+                       &trans &trans
                       &trans &trans &trans
                         >;
                 };
@@ -79,7 +79,7 @@
    &kp TILDE &trans   &trans &trans   &trans   &trans      &kp MINUS &kp EQUAL &kp LBKT        &kp RBKT &kp BSLH &kp GRAVE
    &kp PIPE  &kp BSLH &trans &trans   &trans   &trans      &kp UNDER &kp PLUS  &kp LBRC        &kp RBRC &kp PIPE &kp TILDE
                       &trans &trans &trans 
-                      //nyan// &trans &trans
+                       &trans &trans
                       &trans &mo FN &trans
                         >;
                 };
@@ -98,7 +98,7 @@
    &trans     &kp F11    &kp F12    &trans     &trans   &trans     &kp C_PREV &kp C_PAUSE  &kp C_PLAY   &kp C_NEXT &trans   &trans
    &trans     &trans     &trans     &trans     &trans   &trans     &kp C_MUTE &kp C_VOL_DN &kp C_VOL_UP &trans     &trans   &trans
                       &trans &trans &trans 
-                      //nyan// &trans &trans
+                       &trans &trans
                       &trans &trans &trans
                         >;
                 };
@@ -116,7 +116,7 @@
    &none      &none        &none        &none        &none        &none          &none  &none  &none  &none  &none  &none 
    &none      &none        &none        &none        &none        &none          &none  &none  &none  &none  &none  &none 
                       &trans &trans &trans 
-                      //nyan// &trans &trans
+                       &trans &trans
                       &trans &trans &trans
                         >;
                 };
@@ -136,7 +136,7 @@
    &trans     &trans     &trans     &trans     &trans   &trans     &trans     &trans     &trans     &trans   &trans   &trans
    &trans     &trans     &trans     &trans     &trans   &trans     &trans     &trans     &trans     &trans   &trans   &trans 
                       &trans &trans &trans 
-                      //nyan// &trans &trans
+                       &trans &trans
                       &trans &trans &trans
                         >;
                 };
